@@ -1,0 +1,88 @@
+.container{
+   	max-width: 1200px;
+	margin: auto;
+    width: 50%;
+    text-align: center;
+    vertical-align: middle; 
+    display: center; 
+    margin-top: 100px;      
+}
+.search-block{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.form-links {
+    margin: 20px;
+    text-align: right;
+    right: 0;
+}
+.form-links a{
+	margin: 0 10px;
+}
+.row-buttons{
+	display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.row-buttons .search-submit{
+	display: inherit;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.logo img{
+	max-width: 500px;
+    height: auto;
+}
+.search-block form{
+	padding-top: 32px;
+}
+.search-input{
+    padding: 10px;
+	min-width: 320px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	display: block;
+}
+.search-submit{
+	padding: 10px;
+    background: #4285f4;
+    color: #fff;
+    border: 1px solid #4285f4;
+    display: block;
+    margin: 0 auto;
+	border-radius: 20px;
+	cursor: pointer;
+	margin-top: 32px;
+}
+.search-submit:hover{
+	background: #326ac5;
+}
+.advanced-form .search-input{
+	margin:  10px 0;
+}
+input:focus-visible{
+	outline: 0;
+}
+#frmSearch {
+    /*position: relative;*/
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+ #frmSearch .q {
+    display: block;
+    text-align: left;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    width: 57ch;
+    padding: 1px 8px;    
+ }
+ 
